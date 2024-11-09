@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Launch countdown timer</title>
+  </head>
+  <body>
+    <img src="/images/bg-stars.svg" alt="" class="stars" />
+    <img src="/images/pattern-hills.svg" alt="" class="patern" />
+    <!-- countdown-wrapper -->
+    <div class="countdown-wrapper">
+      <h1 class="title">We’re launching soon</h1>
+
+      <ul class="list list-timer">
+        <li class="li-timer days">
+          <span class="up">08</span><span class="down">08</span
+          ><span class="circle"></span><span class="circle"></span
+          ><span class="li-text">DAYS</span>
+        </li>
+        <li class="li-timer hours">
+          <span class="up">23</span><span class="down">23</span
+          ><span class="circle"></span><span class="circle"></span
+          ><span class="li-text">HOURS</span>
+        </li>
+        <li class="li-timer minutes">
+          <span class="up">55</span><span class="down">55</span
+          ><span class="circle"></span><span class="circle"></span
+          ><span class="li-text">MINUTES</span>
+        </li>
+        <li class="li-timer seconds">
+          <span class="up">41</span><span class="down">41</span
+          ><span class="circle"></span><span class="circle"></span
+          ><span class="li-text">SECONDS</span>
+        </li>
+      </ul>
+    </div>
+    <!-- // countdown-wrapper -->
+    <script src="script.js"></script>
+  </body>
+</html>
